@@ -1,0 +1,16 @@
+print("Ejemplo Branches y Pull request")
+print("En este caso, usaremos de ejemplo un codigo que analiza",
+      "si un numero es par o impar")
+
+#Se crea la funcion que retornara true o false
+def numero_par(number):
+    pass
+
+# Se escribe el codigo de ingreso del numero:
+
+numero = input("Ingresa tu numero:")
+paridad = numero_par(numero)
+if paridad == True:
+    pass
+if paridad == False:
+    pass
