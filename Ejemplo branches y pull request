@@ -4,7 +4,10 @@ print("En este caso, usaremos de ejemplo un codigo que analiza",
 
 #Se crea la funcion que retornara true o false
 def numero_par(number):
-    pass
+    if number % 2 == 0:
+        return True
+    else:
+        return False
 
 # Se escribe el codigo de ingreso del numero:
 
