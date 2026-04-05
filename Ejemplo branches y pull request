@@ -11,6 +11,6 @@ def numero_par(number):
 numero = input("Ingresa tu numero:")
 paridad = numero_par(numero)
 if paridad == True:
-    pass
+    print("Si")
 if paridad == False:
-    pass
+    print("No")
